@@ -122,7 +122,8 @@ async function quoteMint() {
   const sharesStr = parseShares($("mintShares").value);
   const shares = ethers.parseUnits(sharesStr, top10Dec);
 
-  const amountsIn = await top10.quoteMint(shares);
+    const amountsInRO = await top10.quoteMint(shares);
+    const amountsIn = amountsInRO.map(x => x); // clone (now mutable)
 
   const rows = [];
   let anyNeeds = false;
