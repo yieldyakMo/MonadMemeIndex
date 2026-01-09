@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Monad Meme Top 10 Index (TOP10)</title>
+  <meta name="description" content="TOP10 is an immutable index token representing a fixed basket of Monad meme tokens." />
+
+  <meta name="dex" content="PancakeSwap V3 (Monad)" />
+  <meta name="dex:pair" content="WMON/TOP10" />
+  <meta name="dex:pool" content="0xa2236647a9bf384192B34F896EfD2624c6b01A2c" />
+
+  <style>
+    :root { --bg:#07050d; --card:#120b22; --text:#f3f0ff; --muted:#b7a8e6; --accent:#7c3aed; }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(124,58,237,.35), transparent 60%),
+        radial-gradient(900px 600px at 80% 20%, rgba(168,85,247,.25), transparent 55%),
+        var(--bg);
+      color:var(--text);
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 40px 18px; }
+    .hero { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+    .logo { width:72px; height:72px; border-radius:18px; background: rgba(255,255,255,.06); padding:10px; }
+    h1 { margin:0; font-size: 34px; }
+    .sub { margin: 10px 0 0; color: var(--muted); line-height: 1.5; max-width: 64ch; }
+    .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap:14px; margin-top: 22px; }
+    .card {
+      grid-column: span 12;
+      background: rgba(18,11,34,.72);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 18px;
+      padding: 16px;
+      backdrop-filter: blur(10px);
+    }
+    @media (min-width: 820px) {
+      .card.half { grid-column: span 6; }
+      .card.third { grid-column: span 4; }
+    }
+    .label { font-size: 12px; color: rgba(255,255,255,.70); margin-bottom: 6px; }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      color: rgba(255,255,255,.88);
+      word-break: break-all;
+    }
+    a { color: #d9c7ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .btns { display:flex; gap:10px; flex-wrap:wrap; margin-top: 14px; }
+    .btn {
+      display:inline-flex; align-items:center; gap:10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(0,0,0,.24);
+      color: var(--text);
+    }
+    .btn.primary { background: rgba(124,58,237,.22); border-color: rgba(124,58,237,.45); }
+    ul { margin: 10px 0 0; padding-left: 18px; color: rgba(255,255,255,.82); }
+    .foot { margin-top: 20px; font-size: 12px; color: rgba(255,255,255,.60); }
+    .pill {
+      display:inline-block; font-size:12px; padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(124,58,237,.18);
+      border: 1px solid rgba(124,58,237,.35);
+      color:#efe8ff;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <img class="logo" src="./TOP10_logo_256.png" alt="TOP10 logo" />
+      <div>
+        <div class="pill">Immutable Index Token</div>
+        <h1>Monad Meme Top 10 Index (TOP10)</h1>
+        <p class="sub">
+          TOP10 is a permissionless, immutable index token representing a fixed basket of 10 Monad meme tokens.
+          Minting and redeeming are fully on-chain with no owner or admin keys.
+        </p>
+
+        <div class="btns">
+          <a class="btn primary"
+             href="https://pancakeswap.finance/info/v3/monad/pool/0xa2236647a9bf384192B34F896EfD2624c6b01A2c"
+             target="_blank" rel="noreferrer">
+            Trade / Pool ↗
+          </a>
+
+          <a class="btn"
+             href="https://monadvision.com/token/0x6c07bd691bdBB30e081c20D2d26901A1f8A5F99F"
+             target="_blank" rel="noreferrer">
+            Contract ↗
+          </a>
+
+          <a class="btn"
+             href="https://github.com/yieldyakMo/MonadMemeIndex"
+             target="_blank" rel="noreferrer">
+            GitHub ↗
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card half">
+        <div class="label">Token Contract (Monad)</div>
+        <div class="mono">0x6c07bd691bdBB30e081c20D2d26901A1f8A5F99F</div>
+        <div class="foot">Verified on MonadVision.</div>
+      </div>
+
+      <div class="card half">
+        <div class="label">Liquidity Pool</div>
+        <div class="mono">WMON / TOP10</div>
+        <div class="mono">Pool: 0xa2236647a9bf384192B34F896EfD2624c6b01A2c</div>
+        <div class="foot">PancakeSwap V3 (Monad)</div>
+      </div>
+
+      <div class="card third">
+        <div class="label">How it works</div>
+        <ul>
+          <li>Mint by depositing the fixed basket of 10 tokens</li>
+          <li>Redeem TOP10 to receive underlying assets</li>
+          <li>No rebalancing, no governance, immutable logic</li>
+        </ul>
+      </div>
+
+      <div class="card third">
+        <div class="label">Documentation</div>
+        <div><a href="https://github.com/yieldyakMo/MonadMemeIndex#readme" target="_blank">README ↗</a></div>
+        <div><a href="https://github.com/yieldyakMo/MonadMemeIndex/blob/main/WHITEPAPER.md" target="_blank">Whitepaper ↗</a></div>
+      </div>
+
+      <div class="card third">
+        <div class="label">Disclaimer</div>
+        <div class="foot">
+          This website is for informational purposes only and does not constitute financial advice.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

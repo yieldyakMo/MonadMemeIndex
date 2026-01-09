@@ -28,7 +28,9 @@ TOP10 is designed to provide transparent, trust-minimized exposure to the early 
 
 0x6c07bd691bdBB30e081c20D2d26901A1f8A5F99F
 
+## Pancake Swap V3 pool Address
 
+0xa2236647a9bf384192B34F896EfD2624c6b01A2c
 ---
 
 ## How It Works (High Level)
