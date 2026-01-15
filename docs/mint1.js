@@ -200,8 +200,7 @@ async function quoteRedeem() {
   const sharesStr = parseShares($("redeemShares").value);
   const shares = ethers.parseUnits(sharesStr, top10Dec);
 
-  const amountsOutRO = await top10.quoteRedeem(shares);
-  const amountsOut = amountsOutRO.map(x => x); // clone (ethers Result -> plain array)
+  const amountsOut = await top10.quoteRedeem(shares);
 
   const rows = [];
   for (let i = 0; i < 10; i++) {
